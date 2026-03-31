@@ -40,19 +40,26 @@ object TaskCategorizer {
         val normalized = taskName.lowercase().trim()
         if (normalized.isEmpty()) return "General"
 
-        val winner = categoryKeywords
-            .mapValues { (_, keywords) ->
-                keywords.sumOf { keyword ->
-                    when {
-                        normalized.contains("$keyword ") -> 2
-                        normalized.contains(keyword) -> 1
-                        else -> 0
-                    }
+        var bestCategory = "General"
+        var bestScore = 0
+
+        categoryKeywords.forEach { (category, keywords) ->
+            var score = 0
+            keywords.forEach { keyword ->
+                score += when {
+                    normalized.contains("$keyword ") -> 2
+                    normalized.contains(keyword) -> 1
+                    else -> 0
                 }
             }
-            .maxByOrNull { it.value }
 
-        return if (winner != null && winner.value > 0) winner.key else "General"
+            if (score > bestScore) {
+                bestScore = score
+                bestCategory = category
+            }
+        }
+
+        return if (bestScore > 0) bestCategory else "General"
     }
 
     fun getAllCategories(): List<String> = listOf("General") + categoryKeywords.keys.toList()

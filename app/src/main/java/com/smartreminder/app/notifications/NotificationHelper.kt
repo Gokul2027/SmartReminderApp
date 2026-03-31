@@ -81,7 +81,7 @@ class NotificationHelper(private val context: Context) {
             task.id,
             Intent(context, MainActivity::class.java).apply {
                 putExtra("task_id", task.id)
-                flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
+                this.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TOP
             },
             flags
         )
