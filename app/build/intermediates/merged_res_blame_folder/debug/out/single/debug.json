@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "com.smartreminder.app-merged_res-53:/menu_menu_main.xml.flat",
+        "source": "com.smartreminder.app-main-55:/menu/menu_main.xml"
+    },
+    {
+        "merged": "com.smartreminder.app-merged_res-53:/drawable_ic_snooze.xml.flat",
+        "source": "com.smartreminder.app-main-55:/drawable/ic_snooze.xml"
+    },
+    {
+        "merged": "com.smartreminder.app-merged_res-53:/layout_item_task.xml.flat",
+        "source": "com.smartreminder.app-main-55:/layout/item_task.xml"
+    },
+    {
+        "merged": "com.smartreminder.app-merged_res-53:/layout_activity_settings.xml.flat",
+        "source": "com.smartreminder.app-main-55:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.smartreminder.app-merged_res-53:/xml_data_extraction_rules.xml.flat",
+        "source": "com.smartreminder.app-main-55:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.smartreminder.app-merged_res-53:/drawable_spinner_background.xml.flat",
+        "source": "com.smartreminder.app-main-55:/drawable/spinner_background.xml"
+    },
+    {
+        "merged": "com.smartreminder.app-merged_res-53:/drawable_ic_app_icon.xml.flat",
+        "source": "com.smartreminder.app-main-55:/drawable/ic_app_icon.xml"
+    },
+    {
+        "merged": "com.smartreminder.app-merged_res-53:/xml_backup_rules.xml.flat",
+        "source": "com.smartreminder.app-main-55:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.smartreminder.app-merged_res-53:/layout_activity_add_edit_task.xml.flat",
+        "source": "com.smartreminder.app-main-55:/layout/activity_add_edit_task.xml"
+    },
+    {
+        "merged": "com.smartreminder.app-merged_res-53:/layout_activity_map_picker.xml.flat",
+        "source": "com.smartreminder.app-main-55:/layout/activity_map_picker.xml"
+    },
+    {
+        "merged": "com.smartreminder.app-merged_res-53:/layout_activity_main.xml.flat",
+        "source": "com.smartreminder.app-main-55:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.smartreminder.app-merged_res-53:/layout_item_search_result.xml.flat",
+        "source": "com.smartreminder.app-main-55:/layout/item_search_result.xml"
+    },
+    {
+        "merged": "com.smartreminder.app-merged_res-53:/drawable_ic_notification.xml.flat",
+        "source": "com.smartreminder.app-main-55:/drawable/ic_notification.xml"
+    }
+]
