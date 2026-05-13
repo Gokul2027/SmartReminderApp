@@ -286,5 +286,5 @@ This project was developed as part of an academic conference submission (ICAEM 2
 ---
 
 <div align="center">
-  <sub>Built with ❤️ by <a href="https://github.com/Gokul2027">Gokul2027</a> &nbsp;·&nbsp; Presented at ICAEM 2026</sub>
+  <sub> &nbsp;·&nbsp; Presented at ICAEM 2026</sub>
 </div>
