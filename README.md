@@ -1,6 +1,6 @@
 # 📍 Smart Location-Based Reminder App
 
-> **Conference Paper** | ICAEM 2026 — Paper ID: `ICAEM26012174`
+> **Conference Paper** | ICAEM 2026 — ISBN: - 978-81-69206-65-5 
 > 📄 [View Base Paper](https://drive.google.com/file/d/1YTfYcr-zcCuzMnsxh7O5KFKMI1ATIaBv/view?usp=drive_link)
 
 A native Android application that triggers reminders based on your physical location. Using GPS and geofencing, the app notifies users when they enter or leave a saved place — backed by lightweight AI for task categorization, habit tracking, and smart place recommendations.
